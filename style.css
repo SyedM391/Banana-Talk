@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,600&display=swap');
+
+body{
+    font-family: 'Kanit', sans-serif;
+        margin: 0;
+        text-align: center;
+}
+
+:root{
+    --primary: #4c76ad;
+    --width-break: 600px;
+}
+
+.header{
+    display:block;
+    text-align: center;
+    color:black;
+    background-color: var(--primary);
+    padding:2px;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea{
+    display:inline-block;
+    border: 2px solid black;
+    width:80%;
+    height:10vh;
+    padding:1rem;
+    margin:1rem;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: var(--primary);
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    width:50%;
+}
+
+#btn-translate{
+    padding:1rem;
+    margin:1vh;
+    border:1px solid black;
+    color:black
+}
+
+#output{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width:80%;
+    height:10vh;
+    padding:1rem;
+    margin:1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width:var(--width-break);
+}
+
+footer p {
+    margin: auto;
+}
